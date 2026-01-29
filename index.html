@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ella Beauty | Estética Premium ✨</title>
+    <meta name="description"
+        content="Ella Beauty - Estética Premium em Porto Velho. Micropigmentação, Design de Sobrancelhas, Lash Lift, Brow Lamination e muito mais.">
+
+    <!-- Preconnect para recursos externos -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/logo.png">
+
+    <!-- Fontes otimizadas -->
+    <link rel="preload" as="style"
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700&family=Montserrat:wght@400;500;600;700&display=swap">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700&family=Montserrat:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome com loading assíncrono -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+        media="print" onload="this.media='all'">
+</head>
+
+<body>
+    <!-- Header -->
+    <header id="header">
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="assets/logo.png" alt="Ella Beauty" class="logo-img">
+            </a>
+            <nav class="nav-desktop">
+                <a href="#home">Início</a>
+                <a href="#sobre">Sobre</a>
+                <a href="#servicos">Serviços</a>
+                <a href="#depoimentos">Depoimentos</a>
+                <a href="#contato">Contato</a>
+            </nav>
+            <a href="https://wa.me/5569993566561" target="_blank" class="btn-header">
+                <i class="fab fa-whatsapp"></i>
+                Agendar
+            </a>
+            <button class="menu-toggle" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <nav class="nav-mobile">
+        <a href="#home">Início</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#depoimentos">Depoimentos</a>
+        <a href="#contato">Contato</a>
+        <a href="https://wa.me/5569993566561" target="_blank" class="btn-mobile">
+            <i class="fab fa-whatsapp"></i>
+            Agendar Agora
+        </a>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-wave">
+            <svg viewBox="0 0 1440 320" preserveAspectRatio="none">
+                <path fill="currentColor"
+                    d="M0,160L48,176C96,192,192,224,288,213.3C384,203,480,149,576,138.7C672,128,768,160,864,181.3C960,203,1056,213,1152,197.3C1248,181,1344,139,1392,117.3L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+                </path>
+            </svg>
+        </div>
+        <div class="container hero-container">
+            <div class="hero-content">
+                <p class="hero-tag">Estética Premium ✨</p>
+                <h1>Seu momento de <span class="text-highlight">autocuidado</span> começa aqui</h1>
+                <p class="hero-description">+10 anos de experiência em beleza. Atendimento personalizado para realçar o
+                    que você tem de mais bonito.</p>
+
+                <div class="hero-form">
+                    <h3>Agende sua avaliação gratuita</h3>
+                    <form id="leadForm">
+                        <input type="text" name="nome" placeholder="Seu nome" required>
+                        <input type="tel" name="telefone" placeholder="Seu WhatsApp" required>
+                        <select name="servico" required>
+                            <option value="">Qual serviço deseja?</option>
+                            <option value="micropigmentacao">Micropigmentação</option>
+                            <option value="design">Design de Sobrancelhas</option>
+                            <option value="limpeza">Limpeza de Pele</option>
+                            <option value="lash">Lash Lift</option>
+                            <option value="brow">Brow Lamination</option>
+                            <option value="epilacao">Epilação</option>
+                        </select>
+                        <button type="submit" class="btn-submit">
+                            <i class="fab fa-whatsapp"></i>
+                            Quero Agendar
+                        </button>
+                    </form>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="hero-img-wrapper">
+                    <img src="assets/emelly-1.jpg" alt="Emelly Fernandes - Esteticista">
+                </div>
+                <div class="hero-badge">
+                    <span class="badge-number">10+</span>
+                    <span class="badge-text">Anos de<br>Experiência</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre Section -->
+    <section id="sobre" class="section-sobre">
+        <div class="container">
+            <div class="sobre-content">
+                <div class="sobre-image">
+                    <div class="sobre-img-frame">
+                        <img src="assets/emelly-2.jpg" alt="Emelly Fernandes">
+                    </div>
+                </div>
+                <div class="sobre-text">
+                    <span class="section-tag">Sobre Mim</span>
+                    <h2>Prazer, sou a <span class="text-highlight">Emelly Fernandes</span></h2>
+                    <p class="sobre-intro">Olá! Sou esteticista há mais de 10 anos e é um prazer te conhecer!</p>
+                    <p>Minha missão é realçar a beleza natural de cada cliente através de técnicas modernas e um
+                        atendimento <strong>personalizado e humanizado</strong>.</p>
+                    <p>Acredito que cada pessoa é única, por isso, cada procedimento é adaptado às suas necessidades
+                        específicas, garantindo resultados naturais e duradouros.</p>
+
+                    <div class="sobre-features">
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Atendimento Personalizado</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Produtos de Alta Qualidade</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Ambiente Acolhedor</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Resultados Naturais</span>
+                        </div>
+                    </div>
+
+                    <a href="#contato" class="btn-primary">Agendar Consulta</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Serviços Section -->
+    <section id="servicos" class="section-servicos">
+        <div class="wave-top">
+            <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+                <path fill="currentColor"
+                    d="M0,64L80,69.3C160,75,320,85,480,80C640,75,800,53,960,48C1120,43,1280,53,1360,58.7L1440,64L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z">
+                </path>
+            </svg>
+        </div>
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Meus Serviços</span>
+                <h2>Minhas <span class="text-highlight">Especialidades</span></h2>
+                <p>Conheça os tratamentos que ofereço para realçar sua beleza</p>
+            </div>
+
+            <div class="servicos-grid">
+                <div class="servico-card">
+                    <div class="servico-icon">
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <h3>Micropigmentação</h3>
+                    <p>Técnica de pigmentação semipermanente para sobrancelhas, lábios e olhos com resultado natural.
+                    </p>
+                    <a href="#contato" class="servico-link">Saiba mais <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <div class="servico-card featured">
+                    <div class="servico-badge">Mais Procurado</div>
+                    <div class="servico-icon">
+                        <i class="fas fa-feather-alt"></i>
+                    </div>
+                    <h3>Design de Sobrancelhas</h3>
+                    <p>Desenho personalizado que valoriza o formato do seu rosto e realça seu olhar.</p>
+                    <a href="#contato" class="servico-link">Saiba mais <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <div class="servico-card">
+                    <div class="servico-icon">
+                        <i class="fas fa-spa"></i>
+                    </div>
+                    <h3>Limpeza de Pele</h3>
+                    <p>Tratamento profundo para remover impurezas e revitalizar a pele do rosto.</p>
+                    <a href="#contato" class="servico-link">Saiba mais <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <div class="servico-card">
+                    <div class="servico-icon">
+                        <i class="fas fa-eye-dropper"></i>
+                    </div>
+                    <h3>Lash Lift</h3>
+                    <p>Alongamento e curvatura natural dos cílios sem necessidade de extensões.</p>
+                    <a href="#contato" class="servico-link">Saiba mais <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <div class="servico-card">
+                    <div class="servico-icon">
+                        <i class="fas fa-magic"></i>
+                    </div>
+                    <h3>Brow Lamination</h3>
+                    <p>Alisamento e modelagem das sobrancelhas para um efeito preenchido e natural.</p>
+                    <a href="#contato" class="servico-link">Saiba mais <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <div class="servico-card">
+                    <div class="servico-icon">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <h3>Epilação</h3>
+                    <p>Remoção de pelos com cera e linha para uma pele lisa e suave por mais tempo.</p>
+                    <a href="#contato" class="servico-link">Saiba mais <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="wave-bottom">
+            <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+                <path fill="currentColor"
+                    d="M0,64L80,69.3C160,75,320,85,480,80C640,75,800,53,960,48C1120,43,1280,53,1360,58.7L1440,64L1440,120L1360,120C1280,120,1120,120,960,120C800,120,640,120,480,120C320,120,160,120,80,120L0,120Z">
+                </path>
+            </svg>
+        </div>
+    </section>
+
+    <!-- Como Funciona -->
+    <section class="section-processo">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Como Funciona</span>
+                <h2>Sua Jornada de <span class="text-highlight">Transformação</span></h2>
+            </div>
+
+            <div class="processo-steps">
+                <div class="processo-step">
+                    <div class="step-number">01</div>
+                    <div class="step-icon"><i class="fas fa-comments"></i></div>
+                    <h3>Contato</h3>
+                    <p>Entre em contato pelo WhatsApp e tire suas dúvidas.</p>
+                </div>
+                <div class="processo-line"></div>
+                <div class="processo-step">
+                    <div class="step-number">02</div>
+                    <div class="step-icon"><i class="fas fa-calendar-check"></i></div>
+                    <h3>Agendamento</h3>
+                    <p>Escolha o melhor dia e horário para você.</p>
+                </div>
+                <div class="processo-line"></div>
+                <div class="processo-step">
+                    <div class="step-number">03</div>
+                    <div class="step-icon"><i class="fas fa-user-check"></i></div>
+                    <h3>Avaliação</h3>
+                    <p>Análise personalizada das suas necessidades.</p>
+                </div>
+                <div class="processo-line"></div>
+                <div class="processo-step">
+                    <div class="step-number">04</div>
+                    <div class="step-icon"><i class="fas fa-star"></i></div>
+                    <h3>Resultado</h3>
+                    <p>Saia ainda mais linda e confiante!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Depoimentos -->
+    <section id="depoimentos" class="section-depoimentos">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Depoimentos</span>
+                <h2>O Que Minhas Clientes <span class="text-highlight">Dizem</span></h2>
+            </div>
+
+            <div class="depoimentos-grid">
+                <div class="depoimento-card">
+                    <div class="depoimento-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"A Emelly é uma profissional incrível! Fiz a micropigmentação e ficou super natural. Recomendo
+                        demais!"</p>
+                    <div class="depoimento-autor">
+                        <div class="autor-avatar">M</div>
+                        <div class="autor-info">
+                            <strong>Maria Clara</strong>
+                            <span>Micropigmentação</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="depoimento-card">
+                    <div class="depoimento-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"Meu design de sobrancelha ficou perfeito! A Emelly é super atenciosa e caprichosa no trabalho."
+                    </p>
+                    <div class="depoimento-autor">
+                        <div class="autor-avatar">A</div>
+                        <div class="autor-info">
+                            <strong>Amanda Silva</strong>
+                            <span>Design de Sobrancelhas</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="depoimento-card">
+                    <div class="depoimento-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"Fiz o lash lift e amei! Meus cílios ficaram lindos e curvados. Vou fazer de novo com certeza!"
+                    </p>
+                    <div class="depoimento-autor">
+                        <div class="autor-avatar">J</div>
+                        <div class="autor-info">
+                            <strong>Juliana Costa</strong>
+                            <span>Lash Lift</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="section-cta">
+        <div class="cta-wave">
+            <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+                <path fill="currentColor"
+                    d="M0,32L48,37.3C96,43,192,53,288,69.3C384,85,480,107,576,101.3C672,96,768,64,864,53.3C960,43,1056,53,1152,69.3C1248,85,1344,107,1392,117.3L1440,128L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z">
+                </path>
+            </svg>
+        </div>
+        <div class="container">
+            <div class="cta-content">
+                <h2>Pronta para <span class="text-highlight-light">realçar sua beleza</span>?</h2>
+                <p>Agende agora sua avaliação gratuita e descubra o tratamento ideal para você!</p>
+                <a href="https://wa.me/5569993566561" target="_blank" class="btn-cta">
+                    <i class="fab fa-whatsapp"></i>
+                    Agendar pelo WhatsApp
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato Section -->
+    <section id="contato" class="section-contato">
+        <div class="container">
+            <div class="contato-grid">
+                <div class="contato-info">
+                    <span class="section-tag">Contato</span>
+                    <h2>Vamos <span class="text-highlight">Conversar?</span></h2>
+                    <p>Entre em contato e agende sua avaliação. Estou aqui para te ajudar a se sentir ainda mais bonita!
+                    </p>
+
+                    <div class="contato-items">
+                        <a href="https://wa.me/5569993566561" target="_blank" class="contato-item">
+                            <div class="contato-icon whatsapp">
+                                <i class="fab fa-whatsapp"></i>
+                            </div>
+                            <div>
+                                <strong>WhatsApp</strong>
+                                <p>(69) 99935-6656</p>
+                            </div>
+                        </a>
+
+                        <a href="https://www.instagram.com/ellabeauty.pvh/" target="_blank" class="contato-item">
+                            <div class="contato-icon instagram">
+                                <i class="fab fa-instagram"></i>
+                            </div>
+                            <div>
+                                <strong>Instagram</strong>
+                                <p>@ellabeauty.pvh</p>
+                            </div>
+                        </a>
+
+                        <div class="contato-item">
+                            <div class="contato-icon clock">
+                                <i class="far fa-clock"></i>
+                            </div>
+                            <div>
+                                <strong>Horário</strong>
+                                <p>Seg - Sex: 09h às 19h</p>
+                            </div>
+                        </div>
+
+                        <a href="https://maps.google.com/?q=Av.+Guaporé,+3105+-+Agenor+M.+de+Carvalho,+Porto+Velho+-+RO"
+                            target="_blank" class="contato-item">
+                            <div class="contato-icon location">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div>
+                                <strong>Localização</strong>
+                                <p>Av. Guaporé, 3105 - Porto Velho, RO</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <!-- Mapa integrado -->
+                    <div class="mapa-inline">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3943.260125778243!2d-63.86112369999999!3d-8.7615787!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x92325b5f1fd47311%3A0xcb7f056ef2dfa61c!2sAv.%20Guapor%C3%A9%2C%203105%20-%20Agenor%20M.%20de%20Carvalho%2C%20Porto%20Velho%20-%20RO%2C%2076820-259!5e0!3m2!1spt-BR!2sbr!4v1769724654534!5m2!1spt-BR!2sbr"
+                            width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+
+                <div class="contato-form-wrapper">
+                    <form class="contato-form" id="contatoForm">
+                        <h3>Envie uma Mensagem</h3>
+                        <div class="form-group">
+                            <input type="text" name="nome" placeholder="Seu nome" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" name="telefone" placeholder="Seu WhatsApp" required>
+                        </div>
+                        <div class="form-group">
+                            <select name="servico" required>
+                                <option value="">Selecione o serviço</option>
+                                <option value="Micropigmentação">Micropigmentação</option>
+                                <option value="Design de Sobrancelhas">Design de Sobrancelhas</option>
+                                <option value="Limpeza de Pele">Limpeza de Pele</option>
+                                <option value="Lash Lift">Lash Lift</option>
+                                <option value="Brow Lamination">Brow Lamination</option>
+                                <option value="Epilação">Epilação</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="mensagem" placeholder="Sua mensagem (opcional)" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn-submit">
+                            <i class="fab fa-whatsapp"></i>
+                            Enviar pelo WhatsApp
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="#" class="footer-logo">
+                        <img src="assets/logo.png" alt="Ella Beauty" class="footer-logo-img">
+                    </a>
+                    <p>Estética Premium em Porto Velho. Seu momento de autocuidado começa aqui!</p>
+                    <div class="footer-social">
+                        <a href="https://www.instagram.com/ellabeauty.pvh/" target="_blank" aria-label="Instagram"><i
+                                class="fab fa-instagram"></i></a>
+                        <a href="https://wa.me/5569993566561" target="_blank" aria-label="WhatsApp"><i
+                                class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Links</h4>
+                    <a href="#home">Início</a>
+                    <a href="#sobre">Sobre</a>
+                    <a href="#servicos">Serviços</a>
+                    <a href="#contato">Contato</a>
+                </div>
+
+                <div class="footer-servicos">
+                    <h4>Serviços</h4>
+                    <a href="#servicos">Micropigmentação</a>
+                    <a href="#servicos">Design de Sobrancelhas</a>
+                    <a href="#servicos">Lash Lift</a>
+                    <a href="#servicos">Brow Lamination</a>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 Ella Beauty. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Float Button -->
+    <a href="https://wa.me/5569993566561" target="_blank" class="whatsapp-float" aria-label="WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="script.js" defer></script>
+</body>
+
+</html>
