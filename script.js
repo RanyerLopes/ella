@@ -32,6 +32,17 @@ document.addEventListener('DOMContentLoaded', () => {
                 spans[2].style.transform = 'none';
             });
         });
+
+        // Close menu when clicking outside (overlay)
+        navMobile.addEventListener('click', (e) => {
+            if (e.target === navMobile) {
+                navMobile.classList.remove('active');
+                const spans = menuToggle.querySelectorAll('span');
+                spans[0].style.transform = 'none';
+                spans[1].style.opacity = '1';
+                spans[2].style.transform = 'none';
+            }
+        });
     }
 
     // =====================================================

@@ -23,7 +23,6 @@ Site institucional desenvolvido para divulgação dos serviços de estética e c
 - Botão flutuante do WhatsApp
 - Formulário de contato integrado com WhatsApp
 - Menu mobile com animação
-- Animações suaves ao scroll
 - Mapa de localização integrado
 - SEO otimizado
 
@@ -31,10 +30,11 @@ Site institucional desenvolvido para divulgação dos serviços de estética e c
 
 | Cor | Hex | Uso |
 |-----|-----|-----|
-| Rosa Suave | `#E8C4C4` | Cor primária |
-| Dourado | `#C9A86C` | Destaques/Acentos |
-| Branco | `#FFFFFF` | Fundo |
-| Preto | `#1A1A1A` | Texto |
+| Rosa Principal | `#D4A5A5` | Cor primária |
+| Rosa Header | `#FFEBEB` | Fundo do menu |
+| Dourado | `#B8860B` | Destaques |
+| Branco | `#FFFFFF` | Fundo/Texto |
+| Preto | `#2D2D2D` | Texto |
 
 ## Estrutura de Arquivos
 
@@ -80,4 +80,3 @@ Projeto desenvolvido para **Ella Beauty**. Todos os direitos reservados.
 ---
 
 Desenvolvido em 2026
-# ella
